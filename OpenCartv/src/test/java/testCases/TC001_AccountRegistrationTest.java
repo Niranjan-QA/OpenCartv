@@ -14,7 +14,7 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 	@Test(groups={"Regresion","Master"})
 	public void verify_account_registraion()
 	{
-		logger.info("Starting TC001_AccountRegistrationTest ");
+		//logger.info("Starting TC001_AccountRegistrationTest ");
 		try {
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
